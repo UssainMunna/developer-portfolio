@@ -161,7 +161,7 @@ export const educationInfo: EducationType[] = [
 export const experience: ExperienceType[] = [
   {
     role: 'Backend Developer',
-    company: 'GOld Coast IT Solutions',
+    company: 'Gold Coast IT Solutions',
     companyLogo: '/img/icons/common/gcit.jpg',
     date: 'Aug 2021',
     desc: 'Designed a scalable Azure Functions pipeline for FHIR health records, using Python for parsing. Async programming reduced latency. REST APIs via Azure Database for MySQL and Functions enabled efficient record consumption. Utilized Azure Data Lake Storage, MySQL, and Functions for end-to-end solution. Proficient in Jenkins-based Azure deployments. Developed multithreaded Python apps for resource optimization and improved performance.',
