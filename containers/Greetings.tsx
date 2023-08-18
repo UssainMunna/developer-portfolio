@@ -26,35 +26,36 @@ const Greetings = () => {
             <span />
           </div>
           <Container className="py-lg-md d-flex">
-            <div className="col px-0">
-              <Row>
-                <Col lg="6">
-                  <h1 className="display-3 text-white">
-                    {greetings.title + ' '}
-                  </h1>
-                  <p className="lead text-white">{greetings.description}</p>
-                  <SocialLinks />
-                  {greetings.resumeLink && (
-                    <div className="btn-wrapper my-4">
-                      <Button
-                        className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
-                        color="default"
-                        href={greetings.resumeLink}
-                      >
-                        <span className="btn-inner--icon mr-1">
-                          <i className="fa fa-file" />
-                        </span>
-                        <span className="btn-inner--text">See My Resume</span>
-                      </Button>
-                    </div>
-                  )}
-                </Col>
-                <Col lg="6">
-                  <GreetingLottie animationPath="/lottie/coding.json" />
-                </Col>
-              </Row>
-            </div>
-          </Container>
+  <div className="col px-0">
+    <Row>
+      <Col lg="6">
+        <h1 className="display-3 text-white">
+          {greetings.title + ' '}
+        </h1>
+        <p className="lead text-white">{greetings.description}</p>
+        <SocialLinks />
+        {greetings.resumeLink && (
+          <div className="btn-wrapper my-4">
+            <Button
+              className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
+              color="default"
+              href={greetings.resumeLink}
+              target="_blank" // This opens the link in a new tab/window
+            >
+              <span className="btn-inner--icon mr-1">
+                <i className="fa fa-file" />
+              </span>
+              <span className="btn-inner--text">See My Resume</span>
+            </Button>
+          </div>
+        )}
+      </Col>
+      <Col lg="6">
+        <GreetingLottie animationPath="/lottie/coding.json" />
+      </Col>
+    </Row>
+  </div>
+</Container>
           {/* SVG separator */}
           <div className="separator separator-bottom separator-skew">
             <svg
