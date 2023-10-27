@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
   description:
     "I'm a passionate backend developer with experience in ETL transformation using Python, Flask, and Azure services. I've worked extensively on transformation pipelines within Kubernetes environments and Azure Functions. Additionally, I have expertise in setting up CI/CD pipelines, implementing Pytest for testing, and utilizing the Robot Framework for automation. My skill set also includes working with Azure services for cloud-based solutions.",
   resumeLink:
-    'https://drive.google.com/file/d/1QwyFzjWfT1DhsCBTpWe-ahqiZmiOf7fz/view?usp=sharing',
+    'https://drive.google.com/file/d/1aBFBLmLt7e054c3qOBzH68xpawFbCrG8/view',
 };
 
 export const openSource = {
